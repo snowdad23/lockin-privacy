@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LockIn — Privacy Policy</title>
+<style>
+  :root {
+    --ground: #FFFCF9;
+    --ink: #002F42;
+    --ink-soft: #3D6072;
+    --rule: #DED4CA;
+    --surface: #F6F1EC;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #00212E;
+      --ink: #E6EFF3;
+      --ink-soft: #A9C2CD;
+      --rule: #164252;
+      --surface: #062B39;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 48px 20px 96px;
+  }
+  main { max-width: 46rem; margin: 0 auto; }
+  h1 { font-size: 2.1rem; line-height: 1.15; margin: 0 0 6px; letter-spacing: -.02em; }
+  h2 { font-size: 1.25rem; margin: 40px 0 10px; letter-spacing: -.01em; }
+  h3 { font-size: 1rem; margin: 24px 0 6px; }
+  p, li { color: var(--ink); }
+  .sub { color: var(--ink-soft); margin: 0 0 32px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 8px; }
+  a { color: #C4441F; }
+  @media (prefers-color-scheme: dark) { a { color: #FF8A6B; } }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin: 24px 0;
+  }
+  .card > :first-child { margin-top: 0; }
+  .card > :last-child { margin-bottom: 0; }
+  table { border-collapse: collapse; width: 100%; margin: 18px 0; font-size: .94rem; }
+  th, td { text-align: left; padding: 9px 12px 9px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-size: .8rem; text-transform: uppercase; letter-spacing: .07em; color: var(--ink-soft); }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--rule); color: var(--ink-soft); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>LockIn — Privacy Policy</h1>
+<p class="sub">Last updated 1 September 2026</p>
+
+<p>LockIn is a personal self-improvement app: focus sessions, habit tracking, and an optional community. It ships as an Android app and as a Chrome/Firefox browser extension built from the same codebase. This policy explains what the app collects, what it does not, and how to get your data removed.</p>
+
+<p>LockIn is operated by an individual developer. You can reach us at <a href="mailto:lockinpill@gmail.com">lockinpill@gmail.com</a>.</p>
+
+<div class="card">
+  <h3>The short version</h3>
+  <p>Your habits, focus sessions, XP and achievements never leave your phone. We ask for an email address only so you can sign in, and you can skip even that by continuing as a guest. If you post in the community, that post is visible to other signed-in users. We do not run ads, we do not use analytics, and we do not sell anything to anyone.</p>
+</div>
+
+<h2>What stays on your device</h2>
+
+<p>Most of what LockIn knows about you is stored only in the app's own storage on your phone. It is not uploaded, not backed up to us, and not visible to us or anyone else:</p>
+
+<ul>
+  <li>Your habits, their settings, and every completion you log</li>
+  <li>Your streaks and habit statistics</li>
+  <li>Your focus session history — durations, interruptions, scores</li>
+  <li>Your XP, level, rank and achievements</li>
+  <li>Your chosen pot skins, water styles and theme</li>
+  <li>Your notification preferences</li>
+</ul>
+
+<p>Because this data is local, uninstalling LockIn deletes it permanently. We cannot recover it for you.</p>
+
+<h2>What we collect</h2>
+
+<table>
+  <thead><tr><th>Data</th><th>Why</th><th>When</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>Email address</td>
+      <td>To create your account and sign you back in</td>
+      <td>Only if you sign up with email. Guest accounts have none.</td>
+    </tr>
+    <tr>
+      <td>An anonymous account identifier</td>
+      <td>To tell your community posts apart from other people's</td>
+      <td>Whenever you are signed in, including as a guest</td>
+    </tr>
+    <tr>
+      <td>Posts, comments and upvotes</td>
+      <td>To show them to other members</td>
+      <td>Only if you use the Community feature</td>
+    </tr>
+    <tr>
+      <td>Photos you attach to a post</td>
+      <td>To display them with your post</td>
+      <td>Only if you attach one</td>
+    </tr>
+    <tr>
+      <td>Blocks and hidden posts</td>
+      <td>To keep content you have muted out of your feed</td>
+      <td>Only if you block or hide something</td>
+    </tr>
+    <tr>
+      <td>Reports you submit</td>
+      <td>So a moderator can review the content</td>
+      <td>Only if you report something</td>
+    </tr>
+    <tr>
+      <td>A push notification token</td>
+      <td>To deliver reminders and announcements</td>
+      <td>Only if you allow notifications</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>We do not collect your name, phone number, contacts, location, photos other than ones you deliberately attach, or any advertising identifier.</p>
+
+<h2>Using LockIn as a browser extension</h2>
+
+<p>The browser extension adds one capability the phone version cannot have: while a focus session is running, it looks at <strong>which website is in your active tab</strong> so it can tell you whether that site is helping or distracting you. This section describes that behaviour exactly, because it is the one place the extension touches your browsing.</p>
+
+<div class="card">
+  <h3>The rule, in full</h3>
+  <p>The extension reads the <strong>hostname</strong> of your active tab — for example <code>youtube.com</code> — and nothing more. It does this <strong>only while a focus session is running</strong>. When no session is running it does not look at your tabs at all.</p>
+</div>
+
+<h3>What it reads</h3>
+<ul>
+  <li>The <strong>hostname</strong> of the active tab (e.g. <code>news.ycombinator.com</code>), each time you switch tabs or navigate during a session.</li>
+  <li>Whether your browser currently has keyboard or mouse input (via the browser's idle signal), so that sitting away from the keyboard is scored as "away" rather than "focused".</li>
+</ul>
+
+<h3>What it never reads or stores</h3>
+<ul>
+  <li>Full URLs, page paths, or query strings — only the bare hostname.</li>
+  <li>Page content, page titles, form fields, or anything you type.</li>
+  <li>Your browsing history, bookmarks, downloads, or cookies.</li>
+  <li>Anything at all when a focus session is not running.</li>
+  <li>Anything about tabs in other browser windows you are not looking at, beyond the fact that the browser lost focus.</li>
+</ul>
+
+<h3>What happens to the hostnames</h3>
+<p>Hostnames are used to build two things, both stored only in the browser's local extension storage on your own computer:</p>
+<ul>
+  <li>The <strong>current session's totals</strong> — how much focused, neutral, and distracting time this session contains, per host. Cleared when the next session starts.</li>
+  <li>A <strong>local distraction ledger</strong> — per-host daily totals for the last 90 days, so the extension can show you which sites cost you the most focus this week and this month. Older entries are deleted automatically.</li>
+</ul>
+<p>None of this is uploaded, synced to your other devices, or visible to us. There is no server involved, no analytics, and no third-party code in the extension. Removing the extension deletes all of it.</p>
+
+<h3>Optional site blocking</h3>
+<p>If you turn on site blocking, the extension asks your browser for permission to run on the pages you have chosen to block. It uses this <em>only</em> to replace a blocked page with a reminder screen during a session. It still never reads the page's content or address beyond the hostname, and you can decline the permission and keep using everything else.</p>
+
+<h3>Notifications and reminders</h3>
+<p>The extension's focus, habit, streak, and achievement reminders are all generated and scheduled on your own computer using the browser's alarms and notifications. There is no push server, and the extension does not use Firebase Cloud Messaging.</p>
+
+<h2>What other people can see</h2>
+
+<p>Community is a shared space. If you post or comment there, the following is visible to every signed-in LockIn user:</p>
+
+<ul>
+  <li>Your post or comment text, and any photo you attached</li>
+  <li>A display name — for an email account this is the part of your address before the <code>@</code>; guests appear as "Guest"</li>
+  <li>When you posted, and how many upvotes it has</li>
+</ul>
+
+<p><strong>Do not post anything you would not want to be public.</strong> Deleting a post removes it from the app, but we cannot recall copies other people may have already seen or saved.</p>
+
+<p>What other people <em>cannot</em> see: your email address, your habits, your focus sessions, your XP or level, who you have blocked, what you have hidden, or what you have reported.</p>
+
+<h2>Blocking, hiding and reporting</h2>
+
+<p>Blocks and hidden posts are private to you. They are stored against your account so they follow you to a new device, and nobody else — including moderators — can read them. The person you blocked is not told.</p>
+
+<p>A report is different: it is sent to a moderator, who can see the reported content, who wrote it, the reason you chose and any note you added. Your identity as the reporter is visible to moderators but is never shown to the person you reported.</p>
+
+<h2>Who we share data with</h2>
+
+<p>We do not sell your data, share it with advertisers, or use it to build advertising profiles. LockIn contains no advertising SDK and no analytics SDK.</p>
+
+<p>The app uses <strong>Google Firebase</strong> to run its account system, community database, photo storage and notifications. Firebase processes this data on our behalf as a service provider. Their handling is governed by the <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase Privacy and Security policy</a>.</p>
+
+<p>Firebase also collects limited technical information needed to operate the service — for example an IP address when your device connects. We do not use this for tracking.</p>
+
+<p>We may disclose information if we are legally required to, or where it is necessary to investigate abuse or protect someone's safety.</p>
+
+<h2>Where your data is held</h2>
+
+<p>Community data and account information are stored on Google Cloud infrastructure in the <strong>asia-south1 region (Mumbai, India)</strong>.</p>
+
+<h2>How long we keep it</h2>
+
+<ul>
+  <li><strong>Account data</strong> — for as long as your account exists.</li>
+  <li><strong>Posts and comments</strong> — until you delete them, or a moderator removes them.</li>
+  <li><strong>Reports</strong> — kept after they are resolved, so there is a record that reports were reviewed.</li>
+  <li><strong>On-device data</strong> — until you delete it in the app or uninstall LockIn.</li>
+</ul>
+
+<h2>Deleting your data</h2>
+
+<p>You can delete individual posts and comments yourself at any time from the post's menu.</p>
+
+<p>To delete your <strong>account and all associated data</strong>, open <strong>Profile → Account → Delete account</strong> in the app. This permanently removes your sign-in account, your community posts and comments, and your blocks and hidden posts. You will be asked to confirm, and to re-enter your password first. Reports you have filed are kept, without your identity attached, so there is a record that they were reviewed.</p>
+
+<p>If you cannot access the app, email <a href="mailto:lockinpill@gmail.com">lockinpill@gmail.com</a> from the address you signed up with and we will do the same within 30 days.</p>
+
+<p>To delete everything held on your device, uninstall the app or remove the extension.</p>
+
+<h2>Children</h2>
+
+<p>LockIn is not directed at children and is intended for people aged 18 and over. We do not knowingly collect data from children. If you believe a child has created an account, contact us and we will remove it.</p>
+
+<h2>Your rights</h2>
+
+<p>Depending on where you live, you may have the right to access, correct, export or delete the personal data we hold about you, and to object to certain processing. Email <a href="mailto:lockinpill@gmail.com">lockinpill@gmail.com</a> and we will respond within 30 days.</p>
+
+<h2>Security</h2>
+
+<p>Data in transit is encrypted. Access to community data is restricted by server-side security rules, so accounts can only read and write what they are entitled to. No system is perfectly secure, and we cannot guarantee absolute security.</p>
+
+<h2>Changes to this policy</h2>
+
+<p>If this policy changes materially we will update the date at the top and, where the change is significant, tell you in the app. Continuing to use LockIn after a change means you accept the updated policy.</p>
+
+<h2>Contact</h2>
+
+<p><a href="mailto:lockinpill@gmail.com">lockinpill@gmail.com</a></p>
+
+<footer>
+  LockIn · Privacy Policy · Last updated 1 September 2026
+</footer>
+
+</main>
+</body>
+</html>
